@@ -1,6 +1,10 @@
 WEQUIL COIN PROJECT
 
-Creation of a Polygon Network ERC20 token using Remix and Moralis. Solidity as the programming language. One of the feature of this coin is the pay-splitter attribute whereby the payer could initiate payment to the payee without understanding/concerned how tokens are shared between Payee in an assigned ratio. With the help of OpenZepplin the ERC…
+Creation of a Polygon Network ERC20 token using Remix and Moralis. 
+Solidity as the programming language. 
+One of the feature of this coin is the pay-splitter attribute whereby the payer could initiate 
+payment to the payee without understanding/concerned how tokens are shared 
+between Payee in an assigned ratio. With the help of OpenZepplin...
 
 
 REMIX PROJECT
