@@ -1,6 +1,11 @@
-REMIX EXAMPLE PROJECT
+WEQUIL COIN PROJECT
 
-Remix example project is present when Remix loads very first time or there are no files existing in the File Explorer. 
+Creation of a Polygon Network ERC20 token using Remix and Moralis. Solidity as the programming language. One of the feature of this coin is the pay-splitter attribute whereby the payer could initiate payment to the payee without understanding/concerned how tokens are shared between Payee in an assigned ratio. With the help of OpenZepplin the ERC…
+
+
+REMIX PROJECT
+
+Remix project is present when Remix loads very first time or there are no files existing in the File Explorer. 
 It contains 3 directories:
 
 1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
