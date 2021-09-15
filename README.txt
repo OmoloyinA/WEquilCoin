@@ -19,7 +19,7 @@ Usage
 
 Pre Requisites
 
-Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment variable. Follow the example in .env.example.
+Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment variable.
 
 Then, proceed with installing dependencies:
 
