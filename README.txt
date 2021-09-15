@@ -26,7 +26,7 @@ Then, proceed with installing dependencies:
 Here's how to deploy this project
 
 Clone the repo
-git clone https://github.com/dabit3/full-stack-ethereum.git
+git clone https://github.com/InnoOkeke/WEquilCoin.git
 Install the dependencies
 npm install
 
