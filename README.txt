@@ -1,27 +1,24 @@
 WEQUIL COIN PROJECT
 
-Creation of a Polygon Network ERC20 token using Remix and Moralis. 
+Creation of a Polygon Network ERC20 token using Hardhat. 
 Solidity as the programming language. 
 One of the feature of this coin is the pay-splitter attribute whereby the payer could initiate 
 payment to the payee without understanding/concerned how tokens are shared 
 between Payee in an assigned ratio. With the help of OpenZepplin...
 
+TOOLS
 
-REMIX PROJECT
+Hardhat: compile and run the smart contracts on a local development network
+Ethers: renowned Ethereum library and wallet implementation
+Waffle: tooling for writing comprehensive smart contract tests
+Solhint: linter
+Prettier Plugin Solidity: code formatter
 
-Remix project is present when Remix loads very first time or there are no files existing in the File Explorer. 
-It contains 3 directories:
+Usage
 
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one test file for 'Ballot' contract with unit tests in Solidity.
 
-SCRIPTS
+Pre Requisites
 
-The 'scripts' folder contains example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-Scripts have full access to the web3.js and ethers.js libraries.
+Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment variable. Follow the example in .env.example.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-
-Output from script will appear in remix terminal.
+Then, proceed with installing dependencies:
