@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "./PaymentSplitter.sol";
 import "./ERC20.sol";
 
-contract WEquilCoin is ERC20, PaymentSplitter {
+contract WEquilCoinSmall is ERC20, PaymentSplitter {
     constructor(address[] memory payees, uint256[] memory shares_) 
         ERC20(unicode"WEquilCoin 😃", "WEQC") 
         PaymentSplitter(payees, shares_) {
