@@ -22,3 +22,18 @@ Pre Requisites
 Before running any command, you need to create a .env file and set a BIP-39 compatible mnemonic as an environment variable. Follow the example in .env.example.
 
 Then, proceed with installing dependencies:
+
+Here's how to deploy this project
+
+Clone the repo
+git clone https://github.com/dabit3/full-stack-ethereum.git
+Install the dependencies
+npm install
+
+# or
+
+yarn
+Start the local test node
+npx hardhat node
+Deploy the contract
+npx hardhat run scripts/deploy.js --network localhost
