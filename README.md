@@ -27,7 +27,7 @@ cd WEquilCoin
 Install the dependencies:
 yarn
 ```
-## Once installed, let's run Hardhat's testing network:
+Once installed, let's run Hardhat's testing network:
 
 ```sh
 npx hardhat node
