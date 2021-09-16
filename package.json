@@ -1,0 +1,11 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "assert": "^2.0.0",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.4",
+    "web3": "^1.5.2"
+  }
+}
