@@ -21,7 +21,7 @@ dependencies:
 
 ```sh
 Clone the repo:
-git clone https://github.com/InnoOkeke/WEquilCoin.git
+git clone https://github.com/ChidiChuks/WEquilCoin.git
 cd WEquilCoin
 
 Install the dependencies:
