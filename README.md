@@ -25,7 +25,7 @@ git clone https://github.com/InnoOkeke/WEquilCoin.git
 cd WEquilCoin
 
 Install the dependencies:
-npm install
+yarn
 ```
 ## Once installed, let's run Hardhat's testing network:
 
