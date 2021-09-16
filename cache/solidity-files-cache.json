@@ -1,0 +1,311 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/nicholasfett/Company/Code/WEquilCoin/contracts/WEquilCoin.sol": {
+      "lastModificationDate": 1631713171618,
+      "contentHash": "ce7827f73a5970bb84c9e76be97a3afe",
+      "sourceName": "contracts/WEquilCoin.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata",
+        "PaymentSplitter",
+        "SafeMath",
+        "WEquilCoin"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/WEquilCoin/contracts/small/ERC20.sol": {
+      "lastModificationDate": 1631718545904,
+      "contentHash": "734d046abe50696df30143434b81626c",
+      "sourceName": "contracts/small/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/WEquilCoin/contracts/small/WequilCoinSmall.sol": {
+      "lastModificationDate": 1631718521058,
+      "contentHash": "383977b7aba28fbac38f2aa4c6afbc08",
+      "sourceName": "contracts/small/WequilCoinSmall.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PaymentSplitter.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "WEquilCoin"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/WEquilCoin/contracts/small/PaymentSplitter.sol": {
+      "lastModificationDate": 1631718472445,
+      "contentHash": "e8b66c70cde301bb962c1c6657df0922",
+      "sourceName": "contracts/small/PaymentSplitter.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PaymentSplitter"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/themandalore/WEquilCoin/contracts/small/ERC20.sol": {
+      "lastModificationDate": 1631718934993,
+      "contentHash": "734d046abe50696df30143434b81626c",
+      "sourceName": "contracts/small/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/themandalore/WEquilCoin/contracts/small/WequilCoinSmall.sol": {
+      "lastModificationDate": 1631719109391,
+      "contentHash": "58c4b2c550d2fb698a071345f3161248",
+      "sourceName": "contracts/small/WequilCoinSmall.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PaymentSplitter.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "WEquilCoinSmall"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/themandalore/WEquilCoin/contracts/small/PaymentSplitter.sol": {
+      "lastModificationDate": 1631718934992,
+      "contentHash": "e8b66c70cde301bb962c1c6657df0922",
+      "sourceName": "contracts/small/PaymentSplitter.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PaymentSplitter"
+      ]
+    },
+    "/Users/nicholasfett/Company/Code/themandalore/WEquilCoin/contracts/WEquilCoin.sol": {
+      "lastModificationDate": 1631718934988,
+      "contentHash": "ce7827f73a5970bb84c9e76be97a3afe",
+      "sourceName": "contracts/WEquilCoin.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata",
+        "PaymentSplitter",
+        "SafeMath",
+        "WEquilCoin"
+      ]
+    }
+  }
+}
