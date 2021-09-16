@@ -8,11 +8,11 @@ between Payee in an assigned ratio. With the help of OpenZepplin...
 
 ## TOOLS
 
-Hardhat: compile and run the smart contracts on a local development network
-Ethers: renowned Ethereum library and wallet implementation
-Waffle: tooling for writing comprehensive smart contract tests
-Solhint: linter
-Prettier Plugin Solidity: code formatter
+- Hardhat: compile and run the smart contracts on a local development network
+- Ethers: renowned Ethereum library and wallet implementation
+- Waffle: tooling for writing comprehensive smart contract tests
+- Solhint: linter
+- Prettier Plugin Solidity: code formatter
 
 ## Quick start
 
