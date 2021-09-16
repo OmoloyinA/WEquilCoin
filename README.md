@@ -56,7 +56,7 @@ $ yarn test
 npx hardhat run --network rinkeby ./scripts/deploy.ts
 ```
 
-### Validate a contract with etherscan (requires API ke)
+### Validate a contract with etherscan (requires API key)
 
 ```
 npx hardhat verify --network <network> <DEPLOYED_CONTRACT_ADDRESS> "Constructor argument 1"
