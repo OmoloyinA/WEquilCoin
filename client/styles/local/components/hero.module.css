@@ -1,0 +1,214 @@
+@media all and (min-width: 0px){
+    /* hero background */
+    .desktopHeroImg{
+        display: none;  
+    }
+    .mobileHeroImg{
+        display: block;
+        max-width: 300%;
+        min-height: 80vh;
+        background: var(--white);
+    }
+    .mobileHeroImg1{
+        min-height: 100%;
+        height: 100%;
+    }
+    /* hero contents */
+    .heroWrapper{
+        position: relative;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .heroWrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .heroContent{
+        position: absolute;
+        color: var(--white);
+        top: 70%;
+        left: 5%;
+        width: 90%;
+        margin: auto;
+    }
+    .heroContent2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        color: var(--white);
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        margin: auto;
+    }
+    .heroContent2 h1 span{
+        font: 2rem/2.6rem var(--Barlow);
+        font-weight: 700;
+    }
+    .heroContent2 img{
+        min-width: 200px;
+        max-width: 300px;
+    }
+    .heroContent h1, .heroContent2 h1{
+        font: 1.8rem/2.2rem var(--Barlow);
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    /* hero button */
+    .heroButton{
+        border-radius: 10px;
+        outline: none;
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--navy-blue);
+        background: var(--cyan);
+        width: 100px;
+    }
+    .heroButton a{
+        color: var(--black);
+        font: 1rem/1.25rem var(--Barlow);
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .heroButton a:hover{
+        text-decoration: none;
+    }
+}
+@media all and (min-width: 320px){
+    .heroWrapper{
+        position: relative;
+        width: 100%;
+    }
+    .mobileHeroImg{
+        width: 100%;
+        max-height: 500px;
+    }
+    .heroContent{
+        width: 300px;
+    }
+}
+@media all and (min-width: 500px){
+    .mobileHeroImg{
+        width: 100%;
+    }
+    .mobileHeroImg1{
+        height: 30%;
+        min-height: 30%;
+    }
+    .heroContent2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+}
+@media all and (min-width: 768px){
+    .heroContent{
+        top: 65%;
+        width: 60%;
+    }
+    .heroContent2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .desktopHeroImg{
+        display: block;
+        width: 100%;   
+    }
+    .mobileHeroImg{
+        display: none;
+    }
+    @keyframes spread{
+        from {
+            box-shadow: 0;
+        }
+        to {
+            box-shadow: 0px 0px 5px 1px var(--cyan);
+        }
+    }
+    .heroButton{
+        border-radius: 10px;
+        outline: none;
+        padding: 0.8rem 1rem;
+        margin: 0.1rem;
+        width: 150px;
+        animation: spread 0.5s ease infinite alternate
+    }
+    .heroButton a{
+        font-weight: 500;
+    }
+    .signUpButton, .whitePapperButton{
+        margin: 0 0.5rem;
+    }
+}
+@media all and (min-width: 1024px){
+    .heroContent{
+        top: 70%;
+        width: 60%;
+        left: 5%;
+    }
+    .heroContent2{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        color: var(--white);
+        top: 15%;
+        left: 5%;
+        width: 90%;
+        margin: auto;
+        text-align: start;
+    }
+    .heroContent2 h1{
+        font: 3rem/3.563rem var(--Barlow);
+        font-weight: 500;
+        margin: auto 0;
+    }
+    .heroContent2 h1 span{
+        font: 4rem/6.4rem var(--Barlow);
+        font-weight: 700;
+    }
+    .heroContent2 img{
+        width: 700px;
+        max-width: 600px;
+        margin: auto;
+    }
+    .heroContent h1{
+        font: 3rem/3.563rem var(--Barlow);
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    .heroContent h2{
+        font: 1.25rem/1.513rem var(--Barlow);
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+    .heroButton a{
+        font: 1.375rem/2.2rem var(--Barlow);
+        font-weight: 500;
+    }
+}
+@media all and (min-width: 1440px){
+     .heroContent h1{
+        font: 4.063rem/4.938rem var(--Barlow);
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+    .heroContent h2{
+        font: 1.5rem/1.813rem var(--Barlow);
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    } 
+}
+@media all and (min-width: 2000px){
+	.heroContent, .heroContent2{
+		width: 1440px;
+        right: 0;
+        left: 0;
+	}
+}
