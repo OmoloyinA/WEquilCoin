@@ -1,0 +1,133 @@
+@import './config/_config.css';
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@media all and (min-width: 0px){
+    .wrapper{
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.section-heading h1{
+		font: 2rem/3.2rem var(--Barlow);
+		font-weight: 500;
+	}
+	.sub-heading{
+		font: 1.2rem/1.92rem var(--Barlow);
+		font-weight: 300;
+	}
+	.paragraph{
+		font: 1.125rem/1.8rem var(--Barlow);
+		font-weight: 300;
+		margin: 2.125rem 0;	
+	}
+	.section-heading img{
+		margin-top: -45px;
+		width: 120px;
+	}
+	/* error 404 page */
+	.img404{
+		max-width: 50%;
+		margin: 3rem auto;
+	}
+	.img404{
+		animation: pen 2s ease infinite alternate;
+	}
+	@keyframes pen{
+		from{
+			transform: translateY(0px);
+		}
+		to {
+			transform: translateY(30px);
+		}
+	}	
+	.error404{
+		padding: 5rem 0;
+	}
+	.error-button, .uniswap{
+		border: 1px solid var(--navy-blue);
+        background: var(--navy-blue);
+        border-radius: 10px;
+        outline: none;
+        padding: 0.5rem 0rem;
+        left: 0;
+        right: 0;
+        width: 200px;
+        margin: 0.625rem auto;
+    }
+    .error-button:hover{
+        background: var(--lemon);  
+        border: 1px solid var(--lemon); 
+        transition: 0.2s ease;
+    }
+   .uniswap a{
+        color: var(--white);
+		text-decoration: none;
+		font: 1.125rem/1.8rem var(--Barlow-condensed);
+    }
+	 
+	.error-button a:hover{
+		text-decoration: none;
+	}
+}
+@media all and (min-width: 400px){
+	.img404{
+		max-width: 200px;
+	}
+}
+@media all and (min-width: 768px){
+	.section-heading h1{
+		font: 2.8rem/4.48rem var(--Barlow);
+		font-weight: 500;
+	}
+	.sub-heading{
+		font: 1.9rem/3rem var(--Barlow);
+		font-weight: 500;
+	}
+	.paragraph{
+		font: 1.25rem/2rem var(--Barlow);
+		font-weight: 300;
+		margin: 2.125rem 0;	
+	}
+	.section-heading img{
+		margin-top: -50px;
+		width: 170px;
+	}
+}
+@media all and (min-width: 1024px){
+   .sub-heading{
+		font: 2.23rem/3.563rem var(--Barlow);
+		font-weight: 500;
+	}
+	.section-heading img{
+		margin-top: -70px;
+		width: 170px;
+	}
+	.wrapper{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media all and (min-width: 1440px){
+	.section-heading h1{
+		font: 3.625rem/5.8rem var(--Barlow);
+		font-weight: 500;
+	}
+	.head404{
+		font: 5.625rem/5rem var(--Barlow);
+		font-weight: 500;
+	}
+	.img404{
+		max-width: 300px;
+	}
+}
+@media all and (min-width: 2000px){
+	.wrapper{
+		width: 1440px;
+	}
+}	

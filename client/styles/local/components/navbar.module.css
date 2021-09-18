@@ -1,0 +1,199 @@
+/* small mobile screen */
+@media all and (min-width: 0px){
+  /* mobile navbar  */
+  .mobileNavWrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100vh;
+    width: 75%;
+    transition: all 0.3s ease;
+    background: var(--navy-blue);
+  }
+  .mobileNavWrapper  ul{
+    flex-direction: column;
+    padding: 6rem 0;
+  }
+  .mobileNavWrapper  ul li{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+   }
+   .mobileNavWrapper ul div{
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background: var(--lemon);
+  }
+  .mobileNavWrapper > ul li:active{
+    background: var(--white);
+    border-left: 5px solid var(--sky-blue);
+   }
+  .mobileNavWrapper > ul li:active a{
+    color: var(--black);
+  }
+  .mobileNavWrapper > ul li a{
+    font: 1.125rem/1.8rem var(--poppins);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--white);
+  }
+  /* hamburger menu */
+  .hamburger{
+    border-radius: 60px;
+    height: 3px;
+    width:  30px;
+    margin: 7px 0 7px 0;
+    background: var(--white);
+  }
+  .hamburgerBar{
+    width: 30px;
+    margin-left: auto;
+  }
+  .hamburgerX{
+    animation: cros 0.5s;
+    transform: rotateZ(40deg);
+    margin-bottom: 0;
+    width: 30px;
+    margin-left: auto;
+  }
+  .hamburgerX2{
+    animation: cross 0.5s;
+    transform: rotateZ(135deg); 
+    margin-top: 0;
+    width: 30px;
+    margin-left: auto;
+  }
+  @keyframes cross{
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(135deg);
+    }
+  }
+  @keyframes cros{
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(40deg);
+    }
+  }
+  @keyframes spread{
+    from {
+      box-shadow: 0;
+    }
+    to {
+      box-shadow: 0px 0px 5px 1px var(--cyan);
+    }
+  }
+  .uniswap{
+    border: 1px solid var(--navy-blue);
+    background: var(--cyan);
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 0rem;
+    left: 0;
+    right: 0;
+    width: 160px;
+    font: 1.125rem/1.92rem var(--Barlow);
+    animation: spread 0.5s ease infinite alternate;
+  }
+  .uniswap a{
+    color: var(--black)!important;
+  }
+  .mobileNav{
+    position: fixed;
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--transparent-navy-blue);
+    z-index: 99;
+  }
+  .togglenavbar{
+    margin: auto 0
+  }
+  .hideMobileNav{
+    left: -1024px;
+  }
+  .nav,.ln3,.desktopNav{
+    display: none;
+  }
+}
+/* big mobile screen */
+@media all and (min-width: 400px){
+  .mobileNavWrapper > ul{
+    padding: 6rem 0 8rem;
+  }
+}
+/* tablet screen */
+@media all and (min-width: 768px){
+  .nav2>ul>li{
+    font-size: 1.5rem;
+  }
+  .mobileNavWrapper{
+    width: 400px;
+  }
+}
+/* small laptop screen */
+@media all and (min-width: 1024px){
+  .logo{
+    width: 50px;
+  }
+  .topNav ul li a{
+    font: 1rem/1.2rem  var(--Barlow);
+    text-decoration: none;
+    font-weight: 500;
+    list-style: none;
+    margin: 0 1rem;
+    color: var(--white);
+  }
+  .topNav>ul>li a:hover{
+    text-decoration: none;
+  }
+  .desktopNav{
+    display: block;
+    position: fixed;
+    z-index: 100;
+    background:  var(--transparent-navy-blue);
+    width: 100%;
+  }
+  .mobileNav{
+    display: none;
+  }
+/* buy on uniswap button */
+  .uniswap{
+      border: 1px solid var(--navy-blue);
+      background: var(--cyan);
+      border-radius: 10px;
+      outline: none;
+      padding: 0.5rem 0rem;
+      left: 0;
+      right: 0;
+      width: 160px;
+      margin: 0.625rem 0.5rem 0.625rem auto;
+    }
+    .uniswap a{
+      color: var(--black)!important;
+    }
+}
+/* desktop screen */
+@media all and (min-width: 1440px){
+  .logo{
+    width: 50px;
+  }
+  .mobilenav{
+    display: none;
+  }
+  .nav2>ul>li{
+   font: 1.125rem/21px var(--poppins);
+    font-weight: 500;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 1rem;
+  }
+}

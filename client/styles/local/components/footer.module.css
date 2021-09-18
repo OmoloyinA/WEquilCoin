@@ -1,0 +1,66 @@
+@media all and (min-width: 0px){
+    .footer{
+        background: var(--navy-blue);
+    }
+    .footerContent{
+        flex-direction: column;
+        padding: 2.125rem 0;
+    }
+    .footerContent ul li, .footerContent ul li h1, .footerContent span {
+        font: 0.938rem/1.5rem var(--poppins);
+        font-weight: 300;
+        color: var(--light-blue);
+        margin-bottom: 8px;
+        padding: 0 5px 0 0;
+    }
+    .footerContent ul{
+        margin: 2.125rem 0;
+    }
+    .footerContent ul li h1{
+        font-weight: 500;  
+        color: var(--white);  
+    }
+    .footerContent ul li a{
+        color: var(--light-blue);
+        text-decoration: none;
+    } 
+    .footerContent ul li a:hover{
+        text-decoration: none;
+        color: var(--cyan);
+    }
+    .footerContent span{
+        font-weight: 400;
+    }
+    .footerContent span span::before{
+        content: "\a";
+        white-space: pre; 
+    }
+}
+@media all and (min-width: 1024px){
+   .footerContent{
+        flex-direction: row;
+    }
+    .footerContent span{
+        font-weight: 400;
+        margin: auto 0 auto auto;
+    }
+    .footerContent span span::before{
+        content: "\a";
+        white-space: normal; 
+    }
+    .footerContent ul{
+        margin: 0 2rem 0 0;
+    }
+    .footerContent ul li h1{
+        font-weight: 500; 
+        margin-bottom: 23px;  
+    }
+}
+@media all and (min-width: 1440px){
+   .footerContent ul{
+        margin: 0 3.5rem 0 0;
+    }
+    .footerContent{
+        padding: 3.3rem 0;
+    }
+}

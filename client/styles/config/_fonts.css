@@ -1,0 +1,8 @@
+/* font file */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --Barlow: 'Barlow', sans-serif;
+    --Barlow-condensed: 'Barlow Condensed', sans-serif;
+}

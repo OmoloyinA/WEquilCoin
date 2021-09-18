@@ -1,0 +1,14 @@
+/* color file */
+:root{
+    --black: #000000;
+    --sky-blue: #61DAFB;
+    --peach: #FFDBD1;
+    --nude: #FFF2D1;
+    --lemon: #D1FFDB;
+    --navy-blue: #001E49;
+    --white: #FFFFFF;
+    --light-blue: #DFEBFF;
+    --brown: #484848;
+    --cyan: #A5F7C6;
+    --transparent-navy-blue: rgba(0, 30, 73, 0.8);
+}

@@ -1,0 +1,32 @@
+@media all and (min-width: 0px){
+    .ecosystem{
+        width: 100%;
+    }
+    .sectionContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+        background: var(--white);
+    }
+}
+@media all and (min-width: 1024px){
+    .sectionContainer{
+        display: flex;
+        flex-direction: row;
+        margin: 6rem 0;
+    }
+    .ecosystem{
+        width: 100%;
+        margin: auto;
+    }
+    .sectionContainer:first-child{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (min-width: 1440px){
+     .ecosystem{
+        width: auto;
+        margin: auto;
+    }
+}
