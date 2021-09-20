@@ -13,7 +13,7 @@ matic.serverURL = 'https://jtkj6nkacp5f.grandmoralis.com:2053/server';
   const token = await Token.deploy(['0x4E15cdE212044F7a500a1A24e1296DdB2BA9EF09'],[100]);
   console.log("Token address:", token.address);
 }
-
+›
 main()
   .then(() => process.exit(0))
   .catch((error) => {
